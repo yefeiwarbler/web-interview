@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-12T01:05:20.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="C8yau2dAAxBZH0nBGmLC" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-12T01:32:59.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="Wwr0Dz6FZciHVCoUZLsT" version="14.6.12" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1008" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" math="0" shadow="0">
+    <mxGraphModel dx="1008" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="291" pageHeight="413" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="bVtSqR3nZb3WcU69157r-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bVtSqR3nZb3WcU69157r-45" target="bVtSqR3nZb3WcU69157r-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bVtSqR3nZb3WcU69157r-45" value="A的原型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bVtSqR3nZb3WcU69157r-45" value="A的&lt;font color=&quot;#ff3333&quot;&gt;原型&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="244" y="223.75" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="bVtSqR3nZb3WcU69157r-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bVtSqR3nZb3WcU69157r-46" target="bVtSqR3nZb3WcU69157r-47">
@@ -40,7 +40,7 @@
         <mxCell id="bVtSqR3nZb3WcU69157r-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bVtSqR3nZb3WcU69157r-46" target="bVtSqR3nZb3WcU69157r-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bVtSqR3nZb3WcU69157r-46" value="Object的原型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bVtSqR3nZb3WcU69157r-46" value="Object的&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;原型&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="454" y="223.75" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="bVtSqR3nZb3WcU69157r-47" value="null" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -69,18 +69,6 @@
         </mxCell>
         <mxCell id="bVtSqR3nZb3WcU69157r-65" value="prototype" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="433.38" y="183.75" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="bVtSqR3nZb3WcU69157r-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="34" y="70" width="46" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="bVtSqR3nZb3WcU69157r-67" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="34" y="120" width="45" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="bVtSqR3nZb3WcU69157r-68" value="对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="80" width="30" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="bVtSqR3nZb3WcU69157r-69" value="构造函数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="132.5" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
