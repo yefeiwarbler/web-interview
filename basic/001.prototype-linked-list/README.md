@@ -39,7 +39,7 @@
 ```
 完整的原型链如下：
 
-<div style="align:center;padding:1em 0 2em">
+<div>
     <img src="/assets/images/001-1.png" />
 </div>
 
@@ -97,11 +97,8 @@
 
     这种继承方式中，每个子类实例都能通过原型访问原型上的父类实例属性，子类本身也存在相同键值的自有属性，容易造成混淆。此时的原型链如下图所示：
 
-    <div style="align:center;padding:1em 0 2em">
-        <br/>
+    <div>
         <img src="/assets/images/001-2.png" />
-        <br/>
-        <br/>
     </div>
 
     - 借助空函数实现继承
@@ -137,7 +134,7 @@
 
     原型链如下图所示：
 
-    <div style="align:center;padding:1em 0 2em">
+    <div>
         <img src="/assets/images/001-3.png" />
     </div>
 
@@ -233,16 +230,21 @@
     }
 
     function myInstanceof(Obj1, Obj2){
-        var baseTypes = ["undefined", "number", "symbol", "bigint", "string"];
-        if(Obj1 === null || baseTypes.indexOf(typeof Obj1) > -1){
+        // 基础数据类型返回false
+        var baseTypes = ["undefined", "number", "symbol", "bigint", "string", "boolean"];
+        if( Obj2 === null || baseTypes.indexOf(typeof Obj2) > -1 ){
+            throw new TypeError();
+        }
+        if( Obj1 === null || baseTypes.indexOf(typeof Obj1) > -1 ){
             return false;
         }
         var proto2 = Obj2.prototype;
-        while(Obj1.__proto__ != null){
-            Obj1 = Obj1.__proto__;
-            if(Obj1 === proto2){
+        var proto1 = Obj1.__proto__;
+        while(proto1 != null){
+            if(proto1 === proto2){
                 return true;
             }
+            proto1 = proto1.__proto__;
         }
         return false;
     }
